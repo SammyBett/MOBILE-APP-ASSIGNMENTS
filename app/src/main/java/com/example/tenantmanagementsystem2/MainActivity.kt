@@ -4,10 +4,6 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.tenantmanagementsystem2.databinding.ActivityMainBinding
 
-private val databinding: Any
-    get() {
-        TODO()
-    }
 
 class MainActivity : AppCompatActivity() {
 
