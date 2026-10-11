@@ -7,6 +7,10 @@ android {
     namespace = "com.example.tenantmanagementsystem2"
     compileSdk {
         version = release(37)
+        buildFeatures {
+            viewBinding = true
+            dataBinding = true
+        }
     }
 
     defaultConfig {
